@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "Press Start 2P", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 1em;
+    font-size: 16px;
+    vertical-align: middle;
+    --purple: #2A298B;
+}
+
+h1 {
+    font-size: 50px
+}
+
+.controls {
+    text-align: left;
+    font-weight: 600;
+    border: solid var(--purple) 2px;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin: 4px;
+    box-shadow: 4px 4px 0 var(--purple);
+    background: white;
+}
+
+.controls > input {
+    font-family: inherit;
+    font-size: inherit;
+    margin-left: 10px;
+    border: none;
+    width: 60px;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
