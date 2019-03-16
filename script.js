@@ -18,7 +18,6 @@ function getOrCreateContext() {
 
 function playSequence() {
     getOrCreateContext();
-    // oscillator.start(0);
     let time = context.currentTime + eps;
     sequence.forEach(note => {
         let freq = midiToFreq(note[0]);
