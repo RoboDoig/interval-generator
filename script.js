@@ -19,7 +19,6 @@ function playSequence() {
     let sequence = [[parseInt(input1.value), 4], [parseInt(input2.value), 4], [0, 4]];
     sequence.forEach(note => {
         let freq = midiToFreq(note[0]);
-        console.log(time);
         oscillator.frequency.setTargetAtTime(0, time - eps, 0.001);
         oscillator.frequency.setTargetAtTime(freq, time, 0.001);
         time += length / note[1];
