@@ -1,8 +1,5 @@
 let context = null;
 let oscillator = null;
-// const sequence = [
-//     [76, 4], [72, 4], [0, 4]
-// ];
 const length = 2;
 const eps = 0.01;
 
