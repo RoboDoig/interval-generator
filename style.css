@@ -9,6 +9,7 @@ body {
     font-size: 16px;
     vertical-align: middle;
     --purple: #2A298B;
+    --yellow: #FFED5E;
 }
 
 h1 {
@@ -38,4 +39,9 @@ button {
     cursor: pointer;
     font-family: inherit;
     font-size: inherit;
+}
+
+button:hover {
+    background-color: var(--yellow);
+    box-shadow: 2px 2px 0 var(--purple);
 }
